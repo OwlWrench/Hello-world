@@ -1,10 +1,14 @@
-
-
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
-    std::cout << "Nevermind...";
-}
+int age;
 
+// testing
+// testing
+
+int main() {
+
+	std::cout << "Enter your age :";
+	std::cin >> age;
+	std::cout << "Your age is : " << age <<std::endl;
+
+}
